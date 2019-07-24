@@ -13,8 +13,8 @@ class Anagram
   def match(sentence)
     binding.pry
     wordArray = @word.split("").sort
-    sentenceArray = sentence.split(" ")
-    sentenceArray.each do|sentenceWord| 
+    #sentenceArray = sentence.split(" ")
+    sentence.each do|sentenceWord| 
       if sentenceWord.split("").sort == wordArray
         resultArray << @word
       end
