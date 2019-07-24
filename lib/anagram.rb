@@ -7,7 +7,7 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @woed = word
+    @word = word
   end
   
   def match(sentence)
