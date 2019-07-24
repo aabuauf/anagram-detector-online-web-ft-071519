@@ -11,7 +11,7 @@ class Anagram
   end
   
   def match(sentence)
-    binding.pry
+#    binding.pry
     wordArray = @word.split("").sort
     sentenceArray = sentence.split(" ")
     sentenceArray.each do|sentenceWord| 
