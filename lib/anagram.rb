@@ -1,10 +1,13 @@
 # Your code goes here!
+require 'pry'
+
 class Anagram 
   def initialize(word)
     @woed = word
   end
   
   def match(sentence)
+    binding.pry
     wordArray = @word.split("").sort
     sentenceArray = sentence.split(" ")
     sentenceArray.each do|sentenceWord| 
