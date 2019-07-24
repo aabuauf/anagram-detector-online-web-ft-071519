@@ -11,10 +11,11 @@ class Anagram
   end
   
   def match(sentence)
-    binding.pry
+   
     wordArray = @word.split("").sort
     #sentenceArray = sentence.split(" ")
     sentence.each do|sentenceWord| 
+     binding.pry
       if sentenceWord.split("").sort == wordArray
         resultArray << @word
       end
