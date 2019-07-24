@@ -1,9 +1,11 @@
 # Your code goes here!
 require 'pry'
 
-attr_accessor :@word
 
 class Anagram 
+  
+  attr_accessor :word
+  
   def initialize(word)
     @woed = word
   end
