@@ -17,7 +17,7 @@ class Anagram
     sentence.each do|sentenceWord| 
      binding.pry
       if sentenceWord.split("").sort == wordArray
-        resultArray << @word
+        resultArray << sentenceWord
       end
     end
     return resultArray
