@@ -15,7 +15,7 @@ class Anagram
     wordArray = @word.split("").sort
     #sentenceArray = sentence.split(" ")
     sentence.each do|sentenceWord| 
-     binding.pry
+ #    binding.pry
       if sentenceWord.split("").sort == wordArray
         resultArray << @word
       end
